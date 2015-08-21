@@ -2,6 +2,5 @@
 	"data_dir": "/var/consul/data",
 	"server": true,
 	"ui_dir": "/var/consul/ui",
-	"bootstrap_expect": 3,
-	"start_join": ["consuldemo_master_1"]
+	"bootstrap_expect": 3
 }

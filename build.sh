@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGES=(server client haproxy)
+IMAGES=(master server client haproxy)
 
 # Build base consul image
 echo "##############################"

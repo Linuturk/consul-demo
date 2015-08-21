@@ -1,14 +1,17 @@
+master:
+  image: consul:master
+
 server:
   image: consul:server
+  links:
+    - master
 
 client:
   image: consul:client
   links:
-    - server
+    - master
 
 haproxy:
   image: consul:haproxy
   ports:
     - "8888:8888"
-  links:
-    - client
