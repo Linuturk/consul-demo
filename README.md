@@ -14,8 +14,9 @@ Configuration files for a consul demo
 ```docker exec consuldemo_client_1 curl -s http://localhost:8500/v1/health/service/nginx | python -m json.tool```
 
 ## HAProxy Links
-Stats - [localhost:8080](http://localhost:8080)
-Consul UI - [localhost:8888](http://localhost:8888)
+
+ * Stats - [localhost:8080](http://localhost:8080)
+ * Consul UI - [localhost:8888](http://localhost:8888)
 
 ## End Demo
 ```bash end_demo.sh```
