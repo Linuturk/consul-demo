@@ -2,6 +2,7 @@
 Configuration files for a consul demo
 
 ## Start Demo
+```watch docker-compose ps```
 ```bash start_demo.sh```
 
 ## Scale to 3 Servers
