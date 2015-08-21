@@ -1,6 +1,11 @@
 # consul-demo
 Configuration files for a consul demo
 
+## Requirements
+
+ * [docker](https://docs.docker.com/installation/)
+ * [docker-compose](http://docs.docker.com/compose/install/)
+
 ## Start Demo
 
  * ```watch docker-compose ps```
