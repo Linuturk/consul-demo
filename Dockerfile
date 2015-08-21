@@ -3,7 +3,7 @@ MAINTAINER linuturk@onitato.com
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get install -y wget unzip
+RUN apt-get install -y wget unzip dnsutils curl
 RUN wget https://dl.bintray.com/mitchellh/consul/0.5.2_linux_amd64.zip
 RUN wget https://dl.bintray.com/mitchellh/consul/0.5.2_web_ui.zip
 RUN wget https://github.com/hashicorp/consul-template/releases/download/v0.10.0/consul-template_0.10.0_linux_amd64.tar.gz

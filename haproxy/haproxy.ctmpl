@@ -31,4 +31,5 @@ frontend consul :8888
   default_backend consul
 
 backend consul
-  balance roundrobin
+  balance roundrobin{{range service "nginx"}}
+  server {{.Name}} {{.Address}}:{{.Port}} check{{end}}

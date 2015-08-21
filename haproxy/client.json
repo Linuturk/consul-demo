@@ -1,0 +1,5 @@
+{
+	"data_dir": "/var/consul/data",
+	"ui_dir": "/var/consul/ui",
+	"start_join": ["consuldemo_master_1"]
+}

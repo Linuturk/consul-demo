@@ -1,0 +1,11 @@
+{
+    "service": {
+        "name": "nginx",
+        "port": 80,
+        "check": {
+            "name": "nginx_check",
+            "script": "bash /usr/local/bin/nginx_check.sh",
+            "interval": "1s"
+        }
+    }
+}
