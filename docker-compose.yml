@@ -1,18 +1,21 @@
+consul:
+  build: .
+
 master:
-  image: consul:master
+  build: master/
 
 server:
-  image: consul:server
+  build: server/
   links:
     - master
 
 client:
-  image: consul:client
+  build: client/
   links:
     - master
 
 haproxy:
-  image: consul:haproxy
+  build: haproxy/
   ports:
     - "8080:8080"
     - "8888:8888"

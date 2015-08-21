@@ -9,7 +9,7 @@ Configuration files for a consul demo
 ## Start Demo
 
  * ```watch docker-compose ps```
- * ```bash start_demo.sh```
+ * ```docker-compose up```
 
 ## Scale to 3 Servers
 ```docker-compose scale server=2```

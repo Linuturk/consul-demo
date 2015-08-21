@@ -1,4 +1,4 @@
-FROM consul
+FROM consuldemo_consul
 MAINTAINER linuturk@onitato.com
 
 RUN apt-get install -y nginx

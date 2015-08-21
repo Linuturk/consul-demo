@@ -1,4 +1,4 @@
-FROM consul
+FROM consuldemo_consul
 MAINTAINER linuturk@onitato.com
 
 ADD master.json /etc/consul/master.json

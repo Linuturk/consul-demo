@@ -18,4 +18,6 @@ RUN mkdir /var/consul && mv dist /var/consul/ui
 RUN mkdir /var/consul/data
 RUN mkdir /etc/consul
 
+CMD true
+
 EXPOSE 8500
